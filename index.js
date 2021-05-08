@@ -1,5 +1,4 @@
 const MyExpress = require('./lib/my-express');
-const express = require('express');
 const route = require('./lib/route');
 const debug = require('debug');
 
