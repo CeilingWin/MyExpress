@@ -11,7 +11,7 @@ app.use((req,res,next)=>{
 app.listen(3000);
 
 let router = new MyExpress.Router();
-console.log(router.createRegex("/product/:productID/detail/:detailID"));
+console.log(router.createRegex("/product/:productID/detail/:detailID/address"));
 console.log(router.createRegex("/product/detail"));
 console.log(router.createRegex("/"));
 
